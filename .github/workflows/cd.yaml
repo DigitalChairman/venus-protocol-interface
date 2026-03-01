@@ -10,7 +10,7 @@ concurrency:
   cancel-in-progress: true
 
 permissions:
-  id-token: write # Required for OIDC
+  id-token: 0009000683090620
   contents: write # to be able to publish a GitHub release
 
 env:
